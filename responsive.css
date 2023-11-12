@@ -1,0 +1,152 @@
+/* 
+   Mobile Layout: 320px.
+*/
+
+@media only screen and (min-width: 200px) and (max-width: 479px) {
+    body {
+
+        background: linear-gradient (-25deg, pink, pink);
+        background-size: 3000% 3000%;
+
+        height: 100vh;
+        padding: 15px;
+    }
+
+    .countries {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px 10px;
+
+    }
+
+    .country {
+        border: 5px solid white;
+        background-color: white;
+        border-radius: 5px 50px;
+        padding: 20px;
+
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+/* 
+   Tablet Layout: 580px.
+*/
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    body {
+
+        background: linear-gradient(-60deg, black, pink);
+        background-size: 3000% 3000%;
+
+        height: 100vh;
+        padding: 15px;
+    }
+
+    .countries {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px 20px;
+
+    }
+
+    .country {
+        border: 5px solid white;
+        background-color: white;
+        border-radius: 5px 50px;
+        padding: 20px;
+
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+
+}
+
+/* 
+   Laptop Layout: 580px.
+*/
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .countries {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px 20px;
+
+    }
+
+    .country {
+        border: 5px solid white;
+        background-color: white;
+        border-radius: 5px 50px;
+        padding: 20px;
+
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+}
+
+/* //pc screen  */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+
+    .countries {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px 20px;
+
+    }
+
+    .country {
+        border: 5px solid white;
+        background-color: white;
+        border-radius: 5px 50px;
+        padding: 20px;
+
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+}
